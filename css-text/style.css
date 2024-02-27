@@ -1,0 +1,52 @@
+body{
+    /* Police de la caractère */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Taille de la Police */
+    font-size: 20px;
+
+    font-style: normal;
+    /* Normal | Italic */
+    text-align: center;
+    /* left | center | right */
+
+}
+
+h1{
+    font-size: 30px;
+    /* Epaisseur de la Police */
+    font-weight: normal;
+    /* Normal | Bold */
+}
+
+p{
+    /* Majuscule, Miniscule */
+    text-transform: uppercase;
+    /* lowercase, uppercase, capitalize */
+
+    color: red;
+    color: rgb(red, green, blue);
+    color: #555;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    /* style sur le texte (souligné, barré */
+    text-decoration: none;
+    /* underline, none, line-trough */
+    color: red;
+}
+
+/* PSEUDO CLASS */
+/* La pseudo class:hover signifie au survole */
+a:hover{
+    color:blue;
+    font-size: 22px;
+}
+
+
+/* La pseudo class:visited signifie que le lien a été cliqué une fois */
+a:visited{
+    color: green;
+}

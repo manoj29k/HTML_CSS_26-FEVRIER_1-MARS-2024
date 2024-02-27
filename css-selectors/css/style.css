@@ -1,0 +1,35 @@
+/* je suis un commentaire CSS */
+/* Cascading style sheets */
+
+/* On peut selectionner les noms de balise HTML  */
+/* Conséquences tous les élements de ce type séront modifiés */
+/* Le principe de cascade veut que le style s'ecoule en cascade sur les enfants */
+
+p{
+    color: blueviolet;font-size: 25px;
+} 
+h2{
+    color:green;
+}
+/* on peut selectioner des balises spécifiques grace au class utilisant le */
+.txt-cl-orange{
+    
+    color: orange;font-size: 20px;
+}
+
+/* On peut sélectioner une balise spécifique grace à son id en utilisant le # */
+/* Conséquence cet élement séra modifiés */
+/*  On préfere laisser les id dans Java Script */
+#title{
+    color: red;
+}
+
+/* On peut sélectionner plusieurs élements en les séparant par des virgules */
+
+h1, .txt-cl-orange{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*  */
+.paragraph h2, p{
+    text-decoration: underline blue;}

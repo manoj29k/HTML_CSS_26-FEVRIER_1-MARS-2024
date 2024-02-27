@@ -9,10 +9,12 @@
         border: solid 1px black;
         padding: 1px 1px;
       }
+
     </style>
   </head>
   <body>
     <div>
+      <form action="">
       <table>
         <caption>
           Nouvel Exercise
@@ -20,13 +22,13 @@
         <thead>
           <tr>
             <td>Pseudo</td>
-            <td><input type="text" /></td>
+            <td><input type="text" required autofocus/></td>
           </tr>
         </thead>
         <tfoot >
           <tr>
-            <td><input type="submit" value="Valider" />
-            <input type="reset" value="Effacer" /></td>
+            <td colspan="2"><input type="submit" value="Valider" />
+            <input type="reset"  value="Effacer" /></td>
           </tr>
         </tfoot>
         <tr>
@@ -74,7 +76,7 @@
           <td><input type="file"></td>
         </tr>
 
-
+      </form>
 
       </table>
     </div>

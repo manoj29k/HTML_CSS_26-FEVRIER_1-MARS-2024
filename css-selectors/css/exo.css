@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    text-transform: lowercase;
+}
+h2{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+.txt-h2-grey{
+    color: grey;
+}
+p{
+    color: orange;
+}
+.para-cl-purple{
+    color: purple;
+}
+ol{
+    color: pink;
+}
+.list1{
+    color: blue;
+}
+.list2{
+    font-style: italic;color: blue;
+}
+h1:hover{
+    color: pink;
+}
+ul{
+    text-align: center;
+
+}
+.txt-maj{
+    text-transform: uppercase;
+}
+.non-align{
+    text-decoration: none;
+}
+.align-right{
+    text-align: right;
+}
