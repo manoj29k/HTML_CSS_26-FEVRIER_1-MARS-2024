@@ -1,0 +1,78 @@
+/* * est un selecteur universelle, il cible tous les elements HTML */
+/* On opert un Reset (on réinitialise les valeurs et comportements par défaut) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+.container {
+    /* La valeur par defaut d'un element block est { display: block; }*/
+    /* display: block; */
+
+    /* { background-color: } permet de mettre une couleur de fond */
+    background-color: #3498db;
+
+    /* Hauteur */
+    /* height: 300px; */
+    min-height: 300px;
+
+    /* Largeur */
+    width: 300px;
+
+    /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
+
+    /* margin-top: 50px; */
+    /* margin-right: 100px; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 100px; */
+    /* margin: 60px 100px 75px 90px; */
+    /* margin: 50px 100px; */
+    /* margin: 200px; */
+
+    /* { margin: auto; } permet de centrer un block dans la largeur */
+    margin: 50px auto;
+
+    /* Padding sert à mettre de la marge interieur */
+
+    /* padding-top: 30px; */
+    /* padding-right: 30px; */
+    /* padding-bottom: 50px; */
+    /* padding-left: 80px; */
+    /* padding: 20px 50px 60px 70px; */
+    /* padding: 30px 60px; */
+    /* padding: 0 100px; */
+    padding: 20px;
+
+    /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
+    /* border: 2px solid black; */
+
+    border-radius: 10px;
+
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    width: 500px;
+    margin: auto;
+    background-color: #3e913e;
+    text-align: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 70px 20px;
+    background-color: #eb5858;
+
+    /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
+    border-radius: 50%;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+}

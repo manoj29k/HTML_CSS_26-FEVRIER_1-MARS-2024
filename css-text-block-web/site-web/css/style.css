@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COMPONENTS */
+.btn {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: grey;
+}
+
+/* SECTION HERO */
+.hero {
+    width: 80%;
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+        url(../img/site_dedie_alternance_doranco.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+
+.hero span {
+    text-transform: uppercase;
+}
+
+/* SECTION ABOUT-US */
+.about-us {
+    width: 80%;
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 20px 0;
+    border: 1px solid black;
+    color: rgb(28, 53, 71);
+    text-align: center;
+    font-size: 14px;
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 10px;
+}
+
+.about-us a {
+    text-decoration: none;
+    color: #a70707;
+    transition: 0.3s;
+}
+
+.about-us a:hover {
+    color: #c97381;
+}
