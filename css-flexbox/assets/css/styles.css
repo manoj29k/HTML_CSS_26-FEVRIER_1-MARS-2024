@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container{
+    background-color: #4cfa50;
+    margin: 50px;
+    height: 350px;
+    /* La propiete {display : flex;} donne unpouvoir sur les élements enfants direct */
+    display: flex;
+    
+    /* La propiete {flex : direction;} permet de chosir la direction de l'axe principale*/
+    flex-direction: row;
+    /* row | coloum */
+
+    /* La propriete {justify-content } permet d'aligner dans le sens horizontal */
+    justify-content: center;
+    /* flex-start | flex-end | center | space-between | space-arround */
+
+    /* La propiete {align-items} permet d'aligner dans l'axe secondaire */
+    align-items: flex-start;
+    /* flex-start | center | flex-end */
+    
+    /* gap permet de mettre de l'espace entre les enfants direct */
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin-bottom: 20px;
+}

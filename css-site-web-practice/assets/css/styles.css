@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.up{
+        width: 50px;
+        height: 50px;
+        padding: 100px auto;
+        background-image: url(/assets/img/kisspng-up-arrow-android-computer-icons-up-arrow-5ac5a0dc8c49f1.4119950715229012125746.jpg);
+        border-radius: 50%;
+        background-size: cover;
+        background-position: top center;
+        text-align: center;  
+        position: fixed;
+        bottom: 75px;
+        right: 50px;
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #007bff;
+    text-align: center;
+    padding: 25px;
+    font-size: small;
+    color: #fff;
+}
+main{
+
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    margin: 150px auto 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img1{
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+.list1 h2{
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.list1 p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.list1{
+    padding: 0%;
+    margin: 25px ;
+}
+.img2{
+    height:300px;
+    background-image:linear-gradient(red,transparent), url(/assets/img/pexels-joao-guerreiro-11113210.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding-top: 150px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+
+.list2 h2{
+    text-align: center;
+    color: #007bff;
+    margin-top: 25px;
+}
+
+.list2 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ol{
+    margin-left: 25px;
+    margin-bottom: 25px;
+   
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px auto 25px auto;
+}
+
