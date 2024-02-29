@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: green;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
